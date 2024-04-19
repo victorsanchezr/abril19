@@ -1,0 +1,10 @@
+<h1>Comentarios</h1>
+<app-chat-hijo (llamadaPadre)="recibir($event)"></app-chat-hijo>
+
+<ul>
+    <li>
+        @for (comentario of comentarios; track comentario) {
+            <p>{{comentario}}</p>
+        }
+    </li>
+</ul>

@@ -1,0 +1,31 @@
+.quienes-somos {
+    border: 2px solid #333;
+    padding: 20px;
+  }
+  
+  .texto-recuadro {
+    margin: 0;
+  }
+  
+  .texto-recuadro p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .texto-recuadro p:first-of-type {
+    font-weight: bold;
+  }
+  
+  .texto-recuadro p:first-of-type::after {
+    content: "";
+    display: block;
+    width: 50px;
+    border-bottom: 2px solid #333;
+    margin: 10px 0;
+  }
+  
+  .texto-recuadro p:last-of-type {
+    font-style: italic;
+  }
+  
